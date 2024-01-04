@@ -1,0 +1,138 @@
+.is-white{
+    background: white !important;
+}
+
+.bg-primary{
+    background: #01004e !important;
+}
+
+.is-primary{
+    background: #01004e !important;
+    color:crimson !important;
+}
+
+.has-text-white{
+    color: white !important;
+}
+
+b>span{
+    color:transparent;
+    -webkit-text-stroke: crimson 1px !important;
+}
+
+.button{
+    border-radius: 50px !important;
+}
+
+#btn-header:hover, .button:hover{
+    transition: 0.3s;
+    box-shadow: 0 0 35px crimson;
+    color: #01004e !important;
+}
+
+.navbar.is-dark .navbar-start > a.navbar-item:focus, .navbar.is-dark .navbar-start > a.navbar-item:hover, .navbar.is-dark .navbar-start > a.navbar-item.is-active, .navbar.is-dark .navbar-start .navbar-link:focus, .navbar.is-dark .navbar-start .navbar-link:hover, .navbar.is-dark .navbar-start .navbar-link.is-active, .navbar.is-dark .navbar-end > a.navbar-item:focus, .navbar.is-dark .navbar-end > a.navbar-item:hover, .navbar.is-dark .navbar-end > a.navbar-item.is-active, .navbar.is-dark .navbar-end .navbar-link:focus, .navbar.is-dark .navbar-end .navbar-link:hover, .navbar.is-dark .navbar-end .navbar-link.is-active{
+    background: #01004ea6 !important;
+}
+
+.navbar{
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.171);
+}
+
+.about-us{
+    box-shadow: 0 0 45px #0000005e;
+    margin-top: -95px;
+    border-radius: 14px;
+}
+
+.has-text-gray{
+    color: #161616;
+}
+
+.about-col{
+    padding-top: 45px;
+    padding-bottom: 65px;
+    width: 95%;
+}
+
+.folio-cont, .tagColumns{
+    min-width: 350px !important;
+    max-width: 350px !important;
+    flex-wrap: wrap !important;
+}
+
+.knoIcons{
+    flex-wrap: wrap !important;
+}
+
+.col-folio{
+    flex-wrap: wrap !important;
+}
+
+.imgCont{
+    width: 99%;
+    min-height: 200px;
+    object-fit: cover;
+}
+
+.img-folio{
+    width: 99%;
+    object-fit: cover;
+}
+
+.tag{
+    width: 30% !important;
+}
+
+.iconKl{
+    font-size: 6rem;
+    color: #01004e;
+    box-shadow: 0 0 25px #8f8f8f48;
+    padding: 30px;
+    border-radius: 14px;
+}
+
+.iconKl:hover{
+    transition: 0.2s;
+    color: crimson !important;
+    box-shadow: 0 0 75px rgba(220, 20, 60, 0.233);
+}
+
+.iconFloat{
+    position: fixed;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background: rgba(220, 20, 60, 0.842);
+    filter: blur(10%);
+    right: 0.5rem;
+    bottom: 1rem;
+    font-size: 3rem;
+    width: 70px;
+    height: 70px;
+}
+
+.iconFloat:hover{
+    box-shadow: 0 0 25px crimson;
+    color: white;
+}
+
+@media screen and (max-width:800px) {
+    .col-folio{
+        justify-content: center !important;
+    }
+
+    .iconKl{
+        width: 90% !important;
+        text-align: center;
+    }
+
+    .text-conoc{
+        text-align: left !important;
+        margin: 0px -0.5rem;
+    }
+    
+}
