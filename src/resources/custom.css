@@ -1,14 +1,31 @@
+.has-text-primary{
+    color: #0069a7   !important;
+}
+
+.is-primary-dark{
+    background: #001b2b !important;
+}
+
 .is-white{
     background: white !important;
 }
 
 .bg-primary{
-    background: #01004e !important;
+    background: #e6e6e6 !important;
+}
+
+.bg-secondary {
+    background: #0069a7 !important;
+}
+
+.is-secondary {
+    background: #0069a7 !important;
+    color: white;
 }
 
 .is-primary{
-    background: #01004e !important;
-    color:crimson !important;
+    background: #e6e6e6 !important;
+    color:#0069a7 !important;
 }
 
 .has-text-white{
@@ -17,21 +34,27 @@
 
 b>span{
     color:transparent;
-    -webkit-text-stroke: crimson 1px !important;
+    -webkit-text-stroke: #0069a7 1px !important;
 }
 
 .button{
     border-radius: 50px !important;
 }
 
+#btn-header {
+    border-color: #0069a7 !important;
+}
+
 #btn-header:hover, .button:hover{
     transition: 0.3s;
-    box-shadow: 0 0 35px crimson;
-    color: #01004e !important;
+    background: white !important;
+    box-shadow: 0 0 35px #006aa7c9;
+    color: #0069a7  !important;
+    border-color: white !important;
 }
 
 .navbar.is-dark .navbar-start > a.navbar-item:focus, .navbar.is-dark .navbar-start > a.navbar-item:hover, .navbar.is-dark .navbar-start > a.navbar-item.is-active, .navbar.is-dark .navbar-start .navbar-link:focus, .navbar.is-dark .navbar-start .navbar-link:hover, .navbar.is-dark .navbar-start .navbar-link.is-active, .navbar.is-dark .navbar-end > a.navbar-item:focus, .navbar.is-dark .navbar-end > a.navbar-item:hover, .navbar.is-dark .navbar-end > a.navbar-item.is-active, .navbar.is-dark .navbar-end .navbar-link:focus, .navbar.is-dark .navbar-end .navbar-link:hover, .navbar.is-dark .navbar-end .navbar-link.is-active{
-    background: #01004ea6 !important;
+    background: #0069a7 a6 !important;
 }
 
 .navbar{
@@ -85,7 +108,7 @@ b>span{
 
 .iconKl{
     font-size: 6rem;
-    color: #01004e;
+    color: #0069a7 ;
     box-shadow: 0 0 25px #8f8f8f48;
     padding: 30px;
     border-radius: 14px;
@@ -93,8 +116,8 @@ b>span{
 
 .iconKl:hover{
     transition: 0.2s;
-    color: crimson !important;
-    box-shadow: 0 0 75px rgba(220, 20, 60, 0.233);
+    color: #0069a7 !important;
+    box-shadow: 0 0 75px #006aa7c2;
 }
 
 .iconFloat{
@@ -106,7 +129,7 @@ b>span{
     justify-content: center;
     text-align: center;
     color: white;
-    background: rgba(220, 20, 60, 0.842);
+    background:#006aa7e7 ;
     filter: blur(10%);
     right: 0.5rem;
     bottom: 1rem;
@@ -116,7 +139,7 @@ b>span{
 }
 
 .iconFloat:hover{
-    box-shadow: 0 0 25px crimson;
+    box-shadow: 0 0 25px #0069a7;
     color: white;
 }
 
