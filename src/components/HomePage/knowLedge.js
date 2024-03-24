@@ -1,5 +1,5 @@
 import "bulma/css/bulma.css";
-import KnowLedgeObjects from "../objects/kknomLedgeObjects";
+import KnowLedgeObjects from "../../objects/kknomLedgeObjects";
 const c = KnowLedgeObjects();
 
 function KnowLedge() {

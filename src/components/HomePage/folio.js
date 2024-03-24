@@ -1,5 +1,5 @@
 import "bulma/css/bulma.css";
-import FolioObjects from "../objects/folioObjects";
+import FolioObjects from "../../objects/folioObjects";
 var cards = FolioObjects();
 
 function Folio() {
@@ -14,11 +14,11 @@ function Folio() {
                     <div className="imgCont">
                         <img className="img-folio" src={card.ruta}/>
                     </div>
-                    <p className="has-text-danger py-3"><b>{card.titulo}</b></p>
+                    <p className="has-text-primary py-3"><b>{card.titulo}</b></p>
                     <p className="pb-3">{card.desc}</p>
                     <div className="is-flex is-flex-direction-row is-justify-content-space-between is-variable tagColumns">
                         {card.tech.map((tec, i) => (
-                            <span className="tag is-primary has-text-white mt-3">{tec}</span>
+                            <span className="tag bg-secondary has-text-white mt-3">{tec}</span>
                         ))}
                     </div>
                 </div>

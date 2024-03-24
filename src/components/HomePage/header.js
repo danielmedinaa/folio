@@ -1,10 +1,10 @@
 import "bulma/css/bulma.css";
-import "../resources/custom.css"
+import "../../resources/custom.css";
 import { TypeAnimation } from 'react-type-animation';
 
 function HeaderComponent(){
     return(
-<header className="hero is-fullheight is-primary">
+<header className="hero is-fullheight is-light">
   <div className="hero-body has-text-centered">
     <div className="container is-fullhd">
       <h1 className="is-size-1"><b>DANIEL <span>MEDINA</span></b></h1>
@@ -32,11 +32,11 @@ function HeaderComponent(){
       ]}
       wrapper="span"
       speed={50}
-      style={{ fontSize: '2em', display: 'inline-block' }}
+      style={{ fontSize: '2em', display: 'inline-block', fontWeight: 'bolder', color: '#0069a7 ' }}
       repeat={Infinity}
     />
       <p className="has-text-light my-3">¡Hola!, Soy Daniel Medina desarrollador web especializado en diseño FrontEnd UX/UI con interfacez modernas, dinámicas y minimalistas.</p>
-      <a href="#folio" id="btn-header" className="mt-3 button is-danger is-outlined">PORTAFOLIO</a>
+      <a href="#folio" id="btn-header" className="mt-3 button is-secondary is-outlined">PORTAFOLIO</a>
     </div>
   </div>
 </header>
