@@ -4,9 +4,23 @@ import pan from "../resources/img/pan.jpg";
 import zm from "../resources/img/logo-blanco-render.png";
 import plicores from "../resources/img/logo.png";
 import cicm from "../resources/img/cicm.jpeg";
+import bot from "../resources/img/bot-1.png";
+import infinty from "../resources/img/infinity.png"
 
 function FolioObjects() {
     var cards = [
+        {
+            ruta:bot,
+            titulo: "BOT DE WHATSAPP",
+            desc: "Bot de envío de mensajes masivos a WhatsApp extrayendo la información de un archivo de Excel. Programa funcional y ya en producción; Me encargué del FrontEnd y de la lógica de los templates y envio de mensajes.",
+            tech: ["PYTHON","FLET","EXCEL"]
+        },
+        {
+            ruta: infinty,
+            titulo: "TIENDA EN LÍNEA DE INFINITY FULL C.A",
+            desc: "Tienda virtual desarrollada en WordPress para la digitalizar las ventas de la empresa venezolana INFINITY FULL C.A",
+            tech: ["WORDPRESS"]
+        },
         {
             ruta: info,
             titulo: "PERÍODICO DÍGITAL",

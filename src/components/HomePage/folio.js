@@ -4,7 +4,7 @@ var cards = FolioObjects();
 
 function Folio() {
   return (
-    <div>
+    <div className="portafolio-container mt-5">
       <h1 className="title is-white has-text-primary pt-5 has-text-centered">
         PORTAFOLIO
       </h1>

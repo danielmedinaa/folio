@@ -62,7 +62,7 @@ b>span{
 }
 
 .about-us{
-    box-shadow: 0 0 45px #0000005e;
+    box-shadow: 0 0 45px #5050505e;
     margin-top: -95px;
     border-radius: 14px;
 }
@@ -142,6 +142,11 @@ b>span{
     box-shadow: 0 0 25px #0069a7;
     color: white;
 }
+
+
+.portafolio-container{
+    margin: 0px 1%;
+  }
 
 @media screen and (max-width:800px) {
     .col-folio{
