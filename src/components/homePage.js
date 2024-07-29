@@ -5,9 +5,11 @@ import Floaticon from './layouts/floaticon';
 import Contact from './HomePage/contact';
 import NavBar from './HomePage/navBar';
 import HeaderComponent from './HomePage/header';
+// import botModal from './layouts/botModal';
 
 function HomePage() {
     return (
+        
         <div>
             <NavBar/>
             <HeaderComponent/>

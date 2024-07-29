@@ -8,6 +8,7 @@ import HomePage from './components/homePage';
 import IndexTools from './components/Tools/indexTools';
 
 import reportWebVitals from './reportWebVitals';
+import '../src/resources/custom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
